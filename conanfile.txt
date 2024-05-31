@@ -1,21 +1,14 @@
 [requires]
-# Deprecated and vulnerable packages
-Poco/1.8.0.1@pocoproject/stable
-OpenSSL/1.0.2l@conan/stable
-Boost/1.55.0@conan/stable
-zlib/1.2.8@conan/stable
-libcurl/7.55.1@conan/stable
-sqlite3/3.21.0@conan/stable
-libxml2/2.9.4@bincrafters/stable
-libpng/1.6.21@bincrafters/stable
-gtest/1.7.0@bincrafters/stable
-jsoncpp/1.8.0@theirix/stable
+boost/1.65.1
+fmt/5.3.0
+openssl/1.0.2u
+zlib/1.2.8
+gtest/1.7.0
+poco/1.7.8.1
+spdlog/0.16.3
+sqlite3/3.21.0
+cpprestsdk/2.10.2
+jsonformoderncpp/3.1.0
 
 [generators]
 cmake
-
-[options]
-
-[imports]
-
-[build_requires]
